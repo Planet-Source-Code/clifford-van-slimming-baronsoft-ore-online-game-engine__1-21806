@@ -1,0 +1,10 @@
+[INIT]
+NumBodies=1
+
+[Body1]
+Walk1=3001
+Walk2=3003
+Walk3=3000
+Walk4=3002
+HeadOffsetY=-27
+HeadOffsetX=0

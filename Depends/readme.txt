@@ -1,0 +1,1 @@
+These files should all be placed into your \windows\system\ folder for the engine to load properly. Some of the ocxs you may need development time license files. Sorry I can't supply those. So don't ask..

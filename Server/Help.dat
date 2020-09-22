@@ -1,0 +1,8 @@
+[INIT]
+NumLines=4
+
+[Help]
+Line1=(Walk = Arrow Keys) (Turn = Shift left and right)
+Line2=(Talk = Type then ENTER) (Shout = -message) (Emote = :message)
+Line3=(Whisper = \name message) (Yell = 'message)
+Line4=(Attack = ALT) (View stats = /stats)

@@ -1,0 +1,98 @@
+*** Code changes to Version 0.4.0 ***
+
+*TILEENGINE.BAS*
+	Declarations:	
+		-Added
+		Public ScrollPixelsPerFrameX As Integer
+		Public ScrollPixelsPerFrameY As Integer
+		Public Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+
+	DDrawGrhtoSurface,DDrawTransGrhtoSurface,DrawGrhtoHdc
+		-Implemented ScrollPixelsPerFrameX&Y
+
+	EvenFrameSpeed:
+		-New function
+
+	RefreshAllChars:
+		-New function (moved from client)
+
+	RenderScreen:
+		-Implemented ScrollPixelsPerFrameX&Y
+
+	ShowNextFrame:
+		-Implemented EvenFrameSpeed
+
+*MAP EDITOR*
+	Main:
+		-Main loop changed slightly
+
+	RefreshMapList:
+		-New function
+
+	SaveMapdata:
+		-Updated with new map format
+
+	SwitchMap:
+		-Updated with new map format
+
+	ToggleWalkMode:
+		-Bug fixes
+
+	MapLst_DblClick:
+		-Bug fixes
+
+	SaveNewMnu_Click:
+		-Implemented RefreshMapList
+
+	ClsRoomMnu:
+		-Bug fix (didn't clear layer 4)
+
+	frmMain:
+		-Added StartPos, MusNum, and Version text boxes
+
+*CLIENT*
+	Main:
+		-Main loop changes
+
+	ReadMapTileStr:
+		-New function
+
+	SaveMapdata:
+		-Updated with new map format
+
+	SwitchMap:
+		-Updated with new map format
+
+	HandleData:
+		-Reorganized and commands added
+
+	frmMain:
+		-Added download map status label
+
+*SERVER*
+	Declares.bas:
+		Declarations:
+			-Changes to User Types and Map Types
+
+	FileIO.bas:
+		LoadMapData:
+			-Updates with new map format
+		LoadSini:
+			-Added ResPos code
+
+	GameLogic.bas:
+		Pretty much everything has changed	
+
+
+	TCP.bas:
+		HandleData:
+			-Reorganized and commands added		
+
+		ConnectUser:
+
+		ConnectNewUser:
+
+		SendData:
+			-Bug fixes
+
+	
