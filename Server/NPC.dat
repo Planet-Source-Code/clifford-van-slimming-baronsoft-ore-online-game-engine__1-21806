@@ -1,0 +1,30 @@
+[INIT]
+NumNPCs=2
+
+[NPC1]
+Name=Test NPC
+Desc=Hi I'm a test NPC.
+Head=1
+Body=1
+Heading=3
+Movement=2
+Attackable=0
+Hostile=0
+
+[NPC2]
+Name=Test NPC 2
+Desc=Hi I'm a test NPC.
+Head=1
+Body=1
+Heading=3
+Movement=3
+RespawnWait=100
+Attackable=1
+Hostile=1
+GiveEXP=50
+GiveGLD=50
+MinHP=20
+MaxHP=20
+MaxHIT=5
+MinHIT=1
+DEF=5

@@ -1,0 +1,49 @@
+[INIT]
+Password=test
+Heading= 3
+Head= 1
+Body= 1
+Position=1-10-7
+Desc=
+LastIP=127.0.0.1
+
+[STATS]
+GLD= 1300
+MET= 3
+MaxHP= 24
+MinHP= 24
+FIT= 3
+MaxSTA= 9
+MinSTA= 9
+MaxMAN= 34
+MinMAN= 30
+MaxHIT= 11
+MinHIT= 6
+DEF= 9
+EXP= 590
+ELV= 3
+ELU= 675
+
+[Inventory]
+Obj1=1-15-0
+Obj2=3-1-1
+Obj3=2-1-1
+Obj4=0-0-0
+Obj5=0-0-0
+Obj6=0-0-0
+Obj7=0-0-0
+Obj8=0-0-0
+Obj9=0-0-0
+Obj10=0-0-0
+Obj11=0-0-0
+Obj12=0-0-0
+Obj13=0-0-0
+Obj14=0-0-0
+Obj15=0-0-0
+Obj16=0-0-0
+Obj17=0-0-0
+Obj18=0-0-0
+Obj19=0-0-0
+Obj20=0-0-0
+WeaponEqpSlot= 2
+ArmourEqpSlot= 3
